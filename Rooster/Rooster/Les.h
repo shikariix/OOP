@@ -5,7 +5,8 @@ using namespace std;
 
 class Les {
 private:
-	int currentStartTime, duration;
+	string currentTeacher, studentGroup, currentSubject;
+	int currentStartTime, duration, currentRoom;
 
 public:
 	//Constructor
@@ -15,9 +16,7 @@ public:
 	//Destructor 
 	~Les();
 	
-	//Should these be public?
-	int currentRoom;
-	string currentTeacher, studentGroup, currentSubject;
+	
 	
 	//accessor methods;
 	int getRoom();
