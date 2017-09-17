@@ -1,9 +1,10 @@
 #include <iostream>
-#include "Persoon.h"
+#include "Docent.h"
 
 using namespace std;
+
 int main() {
-	cout << "Hello World!" << endl;
-	cout << Persoon::print << endl;
+	Persoon teach = Docent::Docent(28, "Fred", "Geschiedenis");
+	cout << Docent::getAge << endl;
 	return 0;
 }

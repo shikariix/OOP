@@ -2,12 +2,19 @@
 
 
 
-Student::Student()
-{
-	print = "Dit is een student.";
+Student::Student(int age, string name, string group) {
+	leeftijd = age;
+	naam = name;
+	klas = group;
 }
 
+int Student::getAge() {
+	return leeftijd;
+}
 
-Student::~Student()
-{
+string Student::getName() {
+	return naam;
+}
+
+Student::~Student() {
 }

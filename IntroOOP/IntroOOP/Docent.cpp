@@ -2,12 +2,19 @@
 
 
 
-Docent::Docent()
-{
-	print = "Dit is een docent.";
+Docent::Docent(int age, string name, string lesson) {
+	leeftijd = age;
+	naam = name;
+	les = lesson;
 }
 
+int Docent::getAge() {
+	return leeftijd;
+}
 
-Docent::~Docent()
-{
+string Docent::getName() {
+	return naam;
+}
+
+Docent::~Docent() {
 }

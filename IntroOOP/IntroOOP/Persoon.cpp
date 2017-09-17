@@ -2,12 +2,16 @@
 
 
 
-Persoon::Persoon()
-{
-	print = "Dit is een persoon.";
+Persoon::Persoon() {
 }
 
+int Persoon::getAge() {
 
-Persoon::~Persoon()
-{
+}
+
+string Persoon::getName() {
+
+}
+
+Persoon::~Persoon() {
 }

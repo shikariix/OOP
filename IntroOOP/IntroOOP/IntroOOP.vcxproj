@@ -25,6 +25,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Docent.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Persoon.cpp" />
     <ClCompile Include="Student.cpp" />
   </ItemGroup>
