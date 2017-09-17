@@ -1,23 +1,24 @@
 #pragma once
+<<<<<<< HEAD
 
 #include <iostream>
 using namespace std;
 
 class Les {
 private:
-	int currentStartTime, duration;
-
-public:
-	//Constructor
-	Les();
-	Les(int roomNr, string teacher, string group, string subject, int startTime);
-
-	//Destructor 
-	~Les();
-	
-	//Should these be public?
-	int currentRoom;
 	string currentTeacher, studentGroup, currentSubject;
+	int currentStartTime, duration, currentRoom;
+
+=======
+class Les
+{
+>>>>>>> parent of 2ef7ef4... Update 0.2.2
+public:
+	Les();
+	~Les();
+<<<<<<< HEAD
+	
+	
 	
 	//accessor methods;
 	int getRoom();
@@ -25,5 +26,7 @@ public:
 	string getTeacher();
 	string getGroup();
 	string getSubject();
+=======
+>>>>>>> parent of 2ef7ef4... Update 0.2.2
 };
 
