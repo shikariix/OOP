@@ -1,7 +1,0 @@
-﻿  Les.cpp
-d:\documenten\visual studio 2015\projects\rooster\rooster\les.cpp(33): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
-  Generating Code...
-  Skipping... (no relevant changes detected)
-  Rooster.cpp
-  Rooster.vcxproj -> D:\Documenten\Visual Studio 2015\Projects\Rooster\Debug\Rooster.exe
-  Rooster.vcxproj -> D:\Documenten\Visual Studio 2015\Projects\Rooster\Debug\Rooster.pdb (Full PDB)

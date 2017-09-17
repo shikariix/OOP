@@ -1,4 +1,5 @@
 #pragma once
+<<<<<<< HEAD
 
 #include <iostream>
 using namespace std;
@@ -8,13 +9,14 @@ private:
 	string currentTeacher, studentGroup, currentSubject;
 	int currentStartTime, duration, currentRoom;
 
+=======
+class Les
+{
+>>>>>>> parent of 2ef7ef4... Update 0.2.2
 public:
-	//Constructor
 	Les();
-	Les(int roomNr, string teacher, string group, string subject, int startTime);
-
-	//Destructor 
 	~Les();
+<<<<<<< HEAD
 	
 	
 	
@@ -24,5 +26,7 @@ public:
 	string getTeacher();
 	string getGroup();
 	string getSubject();
+=======
+>>>>>>> parent of 2ef7ef4... Update 0.2.2
 };
 
