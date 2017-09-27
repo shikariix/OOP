@@ -7,7 +7,10 @@ using namespace std;
 int main() {
 	Persoon teach = Docent::Docent(28, "Fred", "Geschiedenis");
 
-	cout << teach.leeftijd << endl;
-	cout << teach.naam << endl;
+	cout << teach.getAge()<< endl;
+	cout << teach.getName() << endl;
+
+	char c;
+	cin >> c;
 	return 0;
 }

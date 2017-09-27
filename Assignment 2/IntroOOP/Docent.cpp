@@ -2,18 +2,12 @@
 
 
 
-Docent::Docent(int age, string name, string lesson) {
-	leeftijd = age;
-	naam = name;
-	les = lesson;
+Docent::Docent(int age, string name, string lesson) : Persoon(name, age) {
+	this->les = lesson;
 }
 
-int Docent::getAge() {
-	return leeftijd;
-}
-
-string Docent::getName() {
-	return naam;
+string Docent::getLesson() {
+	return les;
 }
 
 Docent::~Docent() {

@@ -2,7 +2,9 @@
 
 
 
-Persoon::Persoon() {
+Persoon::Persoon(string name, int age) {
+	this->naam = name;
+	this->leeftijd = age;
 }
 
 int Persoon::getAge() {

@@ -2,18 +2,12 @@
 
 
 
-Student::Student(int age, string name, string group) {
-	leeftijd = age;
-	naam = name;
-	klas = group;
+Student::Student(int age, string name, string group) : Persoon(name, age) {
+	this->klas = group;
 }
 
-int Student::getAge() {
-	return leeftijd;
-}
-
-string Student::getName() {
-	return naam;
+string Student::getGroup() {
+	return klas;
 }
 
 Student::~Student() {

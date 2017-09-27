@@ -4,8 +4,7 @@
 class Docent : public Persoon {
 public:
 	Docent(int age, string name, string lesson);
-	int getAge();
-	string getName();
+	string getLesson();
 	~Docent();
 
 	//unieke variabelen

@@ -4,8 +4,7 @@
 class Student : public Persoon {
 public:
 	Student(int age, string name, string group);
-	int getAge();
-	string getName();
+	string getGroup();
 	~Student();
 
 	//unieke variabelen
