@@ -1,0 +1,4 @@
+﻿  main.cpp
+d:\documenten\visual studio 2015\projects\filestreams\filestreams\main.cpp(32): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+  Filestreams.vcxproj -> d:\documenten\visual studio 2015\Projects\Filestreams\Debug\Filestreams.exe
+  Filestreams.vcxproj -> d:\documenten\visual studio 2015\Projects\Filestreams\Debug\Filestreams.pdb (Partial PDB)
